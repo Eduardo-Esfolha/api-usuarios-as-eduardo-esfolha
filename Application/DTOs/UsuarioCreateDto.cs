@@ -1,7 +1,7 @@
 namespace ApiUser.Application.DTOs;
 
 
-public  record  UsuarioCreateDto(
+public  record UsuarioCreateDto(
 
     string  Nome,
 
