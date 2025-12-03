@@ -1,3 +1,5 @@
+using ApiUser.Application.DTOs;
+
 namespace ApiUser.Interfaces;
 
 public interface IUsuarioService
