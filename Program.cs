@@ -1,12 +1,15 @@
 using ApiUser.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-// Registrando o DbContext
 builder.Services.AddDbContext<AppDbContext>();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+
 
 var app = builder.Build();
 
