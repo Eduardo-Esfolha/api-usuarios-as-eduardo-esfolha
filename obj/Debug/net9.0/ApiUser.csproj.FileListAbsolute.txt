@@ -178,3 +178,6 @@ C:\Users\dudue\Documents\ULBRA\back\ApiUser\obj\Debug\net9.0\refint\ApiUser.dll
 C:\Users\dudue\Documents\ULBRA\back\ApiUser\obj\Debug\net9.0\ApiUser.pdb
 C:\Users\dudue\Documents\ULBRA\back\ApiUser\obj\Debug\net9.0\ApiUser.genruntimeconfig.cache
 C:\Users\dudue\Documents\ULBRA\back\ApiUser\obj\Debug\net9.0\ref\ApiUser.dll
+C:\Users\dudue\Documents\ULBRA\back\ApiUser\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\dudue\Documents\ULBRA\back\ApiUser\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\dudue\Documents\ULBRA\back\ApiUser\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

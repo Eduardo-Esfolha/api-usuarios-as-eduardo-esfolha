@@ -1,17 +1,11 @@
 using ApiUser.domain.Entities;
-
-namespace ApiUser.Infrastructure.Persistence;
-
 using Microsoft.EntityFrameworkCore;
+
+namespace APIUsuarios.Infrastructure.Persistence;
 
 public class AppDbContext : DbContext
 {
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    
     public DbSet<Usuario> Usuarios { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder options)
-    {
-        options.UseSqlite("Data Source=meuBanco.db");
-        
-        // ou UseSqlServer / UseNpgsql dependendo do seu banco
-    }
 }

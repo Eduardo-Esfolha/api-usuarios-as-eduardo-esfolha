@@ -1,9 +1,9 @@
 using ApiUser.Interfaces;
+using APIUsuarios.Infrastructure.Persistence;
 
 namespace ApiUser.Infrastructure.Repositories;
 
 using domain.Entities;
-using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 
